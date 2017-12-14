@@ -5,7 +5,12 @@
 
 **Установка и запуск**
 
-1) ```$ npm i```
+1) ```$ npm install -g react-native-cli ```
 
-2) а) Запустить симулятор Android через Android Studio, затем ```$ npm run android```;
-б) Запустить симулятор iPhone(только OS X), затем ```$ npm run ios```
+2) ```$ npm i```
+
+3) ```$ react-native link react-native-vector-icons```
+
+4) а) Запустить симулятор Android через Android Studio, затем ```$ react-native run-android```;
+
+б) Запустить симулятор iPhone(только OS X), затем ```$ react-native run-ios```
